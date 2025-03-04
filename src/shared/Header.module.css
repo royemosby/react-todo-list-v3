@@ -1,0 +1,32 @@
+.header {
+  width: 90vw;
+  text-align: center;
+  position: relative;
+}
+
+.links {
+  margin: auto;
+  text-align: center;
+  padding-bottom: .5rem;
+}
+
+.links a {
+  padding: .25rem;
+}
+
+.current {
+  color: rgba(87, 146, 188, 0.5);
+}
+
+.inactive {
+  color: black;
+}
+
+@media screen and (min-width:400px) {
+  .links {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 1rem;
+  }
+}
